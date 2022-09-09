@@ -15,4 +15,13 @@ public class Samsung extends Phone{
         System.out.println("Phone type: "+type
                             +"\nSeries :"+series);
     }
+
+    public static class Main {
+
+        public static void main(String[] args) {
+        // write your code here
+            PhoneViewer view=new PhoneViewer();
+            view.start();
+        }
+    }
 }
